@@ -30,7 +30,7 @@ class InsereUsuario extends Component {
 
     axios
       //.post(`http://127.0.0.1/api/all/administradores`, administrador )
-      .post(`http://127.0.0.1:1880/usuario`, usuario)
+      .post(`https://agenda-backend-nodered.herokuapp.com/usuario`, usuario)
       .then(res => {
         // console.log(res);
         // console.log(res.data);
